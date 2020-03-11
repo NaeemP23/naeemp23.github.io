@@ -105,12 +105,34 @@ body {
   padding-left: 50px;
   font-family: Comfortaa;
   padding-right: 450px;
+
 }
 
 .body_text1 {
   text-align: left;
   padding-left: 50px;
-  font-family: Comfortaa;
+  font-family: Lato;
+}
+
+.textBold {
+  text-align: left;
+  padding-left: 100px;
+  font-family: Lato;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.captionText {
+  text-align: left;
+
+  font-family: Lato;
+  font-weight: bold;
+
+}
+
+.imgGap {
+  width: 23%;
+  margin:5px;
 }
 
 .homeimg {
@@ -195,10 +217,28 @@ body {
   font-style: italic;
   margin-left: 7%;
 }
+
+.row2 {
+	flex: 33.33%;
+  padding: 5px;
+  font-family: Comfortaa;
+  font-style: italic;
+  margin-left: 11%;
+}
+
+.row3 {
+	flex: 33.33%;
+  padding: 5px;
+  font-family: Comfortaa;
+  font-style: italic;
+  margin-left: 25%;
+}
 /* Create three equal columns that sits next to each other */
 .column {
-  display: flex;
+  width: 25%;
+  float: right;
   position: relative;
+  padding-right: 50px;
 }
 
 .column1 {
@@ -206,6 +246,7 @@ body {
   position: relative;
   padding: 5px;
 }
+
 .bullets {
   padding-left: 100px;
   padding-right: 50px;

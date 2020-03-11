@@ -36,7 +36,7 @@
 		<nav id="gtco-header-navbar" class="navbar navbar-expand-lg py-4">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="/">
-            <span class="lnr lnr-moon"></span>
+            <img src="img/naeemlogo.png" class="homeLogo"></span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
             <span class="lnr lnr-menu"></span>
@@ -73,11 +73,15 @@
 
 
 </div>		<section id="gtco-who-we-are" class="bg-white">
-    <div class="container">
-      <br>
+
+
+      <div class="row2">
+         <div class="column1">
       <img src="img/nlp.jpg" width="375"></img>
       <img src="img/stuck.png" width="400"></img>
-      </br>
+
+    </div>
+  </div>
           <div class="blog-text"> </div>
 
           <div class="featurettes-wrap text-left mb-4">
@@ -114,14 +118,16 @@
                         <!-- <img class="goalimg" src="img/adobeXD.png" alt="">
                         <img class="goalimg" src="img/ReactLogopng.png" alt=""> -->
 
-                      <p class="body_text">Throughout the course of the project, I delegated task between team members between designing and finding the correct frameworks to help accomplish our goal.</p>
+                      <p class="body_text1">Throughout the course of the project, I delegated task between team members between designing and finding the correct frameworks to help accomplish our goal.</p>
                       <div class="blog-text2"> </div>
+                      <img class="column" src="img/ReactLogopng.png">
+                      <img class="column" src="img/adobeXD.png">
                       <h4 class="body_title"><b>Length of project<b></h4>
-                      <p class="body_text">September 2019 - December 2019</p>
+                      <p class="body_text1">September 2019 - December 2019</p>
 
                       <div class="blog-text2"> </div>
                       <h4 class="body_title"><b>Tools used<b></h4>
-                      <p class="body_text">Python | IBM Tone Analyzer | Unix </p>
+                      <p class="body_text1">Python | IBM Tone Analyzer | Unix </p>
 
                       <!-- <div class="row">
                         <div class="column">
@@ -145,19 +151,21 @@
 
                 <p class="body_text1"><br>The main goal we wanted to address in our automated script writer for the automated script to maintain a sense of continuity within the context but also have an emotional arch.
                   In order to target automated script writing, we:</br></p>
-                  <div class="bullets">
+                  <div class="textBold">
                     <br>1. took a set of raw script files from the Internet Movie Script Database (IMSDb)</br>
                     <br>2. took each script file and ran it through the parser</br>
                     <br>3. feed parsed lines into the sentiment analysis tool</br>
                     <br>4. sentiment analyzer then labelled each line as one of four emotions: anger, sadness, fear, or joy</br>
                   </div>
-
-                <img src="img/approach.png" width="300"></img>
-
+                  <div class="row3">
+                     <div class="column1">
+                <img src="img/approach.png" width="400"></img>
+              </div>
+            </div>
                 <p class="body_text1"><br>After having labelled each line of our scripts with an emotion, we could finally train our model to generate script. The model we used was OpenAI’s GPT-2, a text generating AI used to develop new scripts based on user’s input. </br>
                 <p class="body_text1"><br>For our specific goal, we first trained 4 different models (one for each emotion) by feeding it the respective dataset e.g. all lines labelled as ‘anger’ were used to train the ‘anger’ model. After following this process for each
                   emotion model, we created a story arch. The story arch:</br>
-                  <div class="bullets">
+                  <div class="textBold">
                     <br>1. takes a user input and feeds it through one emotion model e.g. sad</br>
                     <br>2. the last line generated in the sad model is passed into the next emotion model such as angry</br>
                     <br>3. last line from one emotion model is passed onto the next model until the final output</br>
@@ -225,7 +233,7 @@
 
                       <h4 class="body_title"><b>Architecture<b></h4>
                       <p class="body_text1"><br>As the diagram displays:</br></p>
-                      <div class="bullets">
+                      <div class="textBold">
                         <br>1. the user first inputs a text line which is then plotted into the story arch</br>
                         <br>2. then passed into the driver program which directly passes it into the first emotional
                          model and receives the last line generated within that emotional model </br>
@@ -259,9 +267,13 @@
                           and the script is much more flavorful!</br>
                     </div><!--/ .col-md-4.col-md-offset-2.col-sm-6 -->
                     <br>
+                    <div class="row2">
+                       <div class="column1">
                     <img src="img/pretrain.png" width="375"></img>
                     <img src="img/posttrain.png" width="400"></img>
                     </br>
+                  </div>
+                </div>
             </div>
 
             <div class="row text-center">

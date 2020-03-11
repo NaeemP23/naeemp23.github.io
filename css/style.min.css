@@ -233,6 +233,22 @@ body {
   font-style: italic;
   margin-left: 25%;
 }
+
+.row4 {
+	flex: 33.33%;
+  padding: 5px;
+  font-family: Comfortaa;
+  font-style: italic;
+  margin-left: 40%;
+}
+
+.row5 {
+	flex: 33.33%;
+  padding: 5px;
+  font-family: Comfortaa;
+  font-style: italic;
+  margin-left: 20%;
+}
 /* Create three equal columns that sits next to each other */
 .column {
   width: 25%;

@@ -48,7 +48,9 @@ body {
 
 .intro_text {
   padding-top: 80px;
-  padding-left: 300px;
+  /* padding-left: 00px; */
+  margin-left: 350px;
+  margin-top: 20px;
   text-align: left;
   font-family: Comfortaa;
   font-style: italic;
@@ -65,7 +67,7 @@ body {
 }
 
 .intro_text2 {
-  padding-left: 300px;
+  margin-left: 350px;
   text-align: left;
 }
 

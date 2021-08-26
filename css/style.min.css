@@ -71,6 +71,10 @@ body {
   text-align: left;
 }
 
+.backimgh {
+  max-height: inherit;
+}
+
 .project_title {
   font-family: Comfortaa;
   text-align: center;

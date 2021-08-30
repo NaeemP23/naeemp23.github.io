@@ -2,6 +2,10 @@
  * Moon by GetTemplates.co
  * URL: https://gettemplates.co
  */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
 html {
   font-size: 62.5%;
   overflow-x: hidden; }
@@ -52,8 +56,7 @@ body {
   margin-left: 350px;
   margin-top: 20px;
   text-align: left;
-  font-family: Comfortaa;
-  font-style: italic;
+  font-family: "Montserrat";
   font-weight: bold;
 }
 
@@ -76,19 +79,20 @@ body {
 }
 
 .project_title {
-  font-family: Comfortaa;
+font-family: 'Montserrat';
+font-weight: 800;
   text-align: center;
 }
 
 .body_title {
   text-align: left;
   padding-left: 50px;
-  font-family: Comfortaa;
+  font-family: 'Montserrat';
 }
 
 .body_title_center{
   text-align: center;
-  font-family: Comfortaa;
+  font-family: 'Montserrat';
   font-size: 32px;
 }
 .goalimg {
@@ -319,7 +323,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-top: 0; }
 
 p {

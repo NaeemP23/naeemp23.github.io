@@ -937,3 +937,7 @@ footer {
     .hvrbox.active .hvrbox-text_mobile {
     	display: block;
     }
+
+    span {
+      background-color: white;
+    }
